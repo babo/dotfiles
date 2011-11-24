@@ -1,0 +1,7 @@
+export HISTSIZE=1000
+export APPEND_HISTORY=1
+export HIST_IGNORE_DUPS=1
+export PYTHONPATH=
+
+alias g=git
+alias h=history

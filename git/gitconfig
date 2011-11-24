@@ -1,0 +1,31 @@
+[ui]
+	name = Attila Babo
+	email = attila.babo@
+[status]
+	submodulesummary = 1
+[core]
+	editor = gvim -f
+	whitespace = trailing-space,space-before-tab
+	excludesfile = ~/.gitignore
+[merge]
+	tool = gvimdiff
+	stat = true
+[diff]
+	guitool = gvimdiff
+	tool = gvimdiff
+	renames = copies
+	mnemonicprefix = true
+[alias]
+	st = status
+	co = checkout
+[user]
+	email = attila.babo@
+	name = Attila Babo
+[color]
+	ui = auto
+[branch]
+	autosetupmerge = true
+[push]
+	default = tracking
+[rerere]
+	enabled = true
