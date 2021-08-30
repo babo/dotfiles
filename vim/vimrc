@@ -19,13 +19,13 @@ set wildmenu
 syntax on
 filetype plugin indent on
 set gfn=Inconsolata-dz:h11
-set anti
+set antialias
 set wildmenu
 set guioptions-=T
 set diffopt+=iwhite
  
 if &diff
-	set scrollbind
+    set scrollbind
     diffthis
 else
 endif
